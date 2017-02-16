@@ -37,4 +37,8 @@ Take the category with the highest score as the categorization for the story. An
 
 ## Miscellany
 
-Due to some quirk in how pickle works, this code only works on Linux and Mac operating systems; it was pretty unhappy with my Windows system. You'll also have to downgrade scikit-learn to version 0.15, otherwise there are incompatibility issues with the pickled classifiers. This is reflected in `requirements.pip`.
+Due to some quirk in how pickle works, this code only works on Linux and Mac operating systems; it was pretty unhappy with my Windows system. You'll also have to downgrade scikit-learn to version 0.15, otherwise there are incompatibility issues with the pickled classifiers. This is reflected in `requirements.txt`. Run 
+	
+	pip install -r requirements.txt
+
+to install the dependencies you need.
